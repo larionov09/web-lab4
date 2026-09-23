@@ -19,7 +19,7 @@ function toggle_hide_show() {
 let input_box = document.getElementById('calculator_input')
 let output_box = document.getElementById('calculator_output')
 let token_cost_box = document.getElementById('token_cost')
-let token_cost = 9
+let token_cost = 10
 function display_token_cost() {
     token_cost_box.textContent = `${token_cost} руб.`
 }
