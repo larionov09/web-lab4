@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компания разработчика ИИ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <h1 style="margin: 0;">Компания разработчика ИИ</h1>
+        <div class="menu" id="menu">
+            <a class="beautiful_button" href="index.html">Главная</a>
+            <a class="beautiful_button" href="services.html">Услуги</a>
+            <a class="beautiful_button" href="about_us.html">О нас</a>
+            <a class="beautiful_button" href="about_site.html">О сайте</a>
+        </div>
+
+        <button class="toggle_button" onclick="toggle_hide_show()">Показать / скрыть</button>
+    </div>
+
+    <div>
+        <h2>Главная</h2>
+        <h3>Калькулятор стоимости токенов нашего ИИ:</h3>
+        <span>Стоимость одного токена: </span>
+        <span id="token_cost"></span>
+        <div class="calculator">
+            <span>Введите кол-во токенов:</span>
+            <input type="number" step="1" id="calculator_input" type="text" style="height: min-content;">
+            <button class="beautiful_button" onclick="calculate()">Посчитать</button>
+        </div>
+        <div>
+            <span>Стоимость: </span>
+            <span id="calculator_output"></span>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

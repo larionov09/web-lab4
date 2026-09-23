@@ -1,0 +1,54 @@
+* {
+    /* border: 1px solid black; */
+}
+
+html {
+    font-size: 150%;
+}
+
+input {
+    font-size: inherit;
+}
+
+button {
+    font-size: inherit;
+}
+
+.toggle_button {
+    display: block;
+    align-self: center;
+}
+
+.menu {
+    height: 50px;
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    transition: height 1s ease;
+}
+
+.calculator {
+    display: flex;
+    align-items: center;
+}
+
+.beautiful_button {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    transition: color 1s ease;
+    transition: background-color 1s ease;
+    padding: 3px;
+    margin: 5px;
+    align-self: center;
+}
+
+.beautiful_button:hover {
+    background-color: black;
+    color: white;
+    transition: color 0.5s ease;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
